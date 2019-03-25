@@ -48,7 +48,7 @@ export class MessagesController {
                 response.status(HttpStatus.CREATED).json({
                     message: 'se ha editado tu mensaje',
                     data: res
-                });gi
+                });
             })
             .catch(err => {
                 response.status(HttpStatus.FORBIDDEN).json({
